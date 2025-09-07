@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<h1 class="heading">Weather APP </h1>
+<form id="searchform">
+ <input type="text" placeholder="Enter your city " id="inputtext">
+ <button id="btn">search</button>
+ </form>
+
+ <div id="weatherreport" class="hidden-box">
+ <h2 id="cityname"> </h2>
+ <div class="weatherinfo">
+ <div>
+    <p class="lable" ><h5>Temperature</h5></p>
+    <p><span id="temp"></span>°C</p>
+ </div>
+ <div>
+    <p class="label1"><h5>Condition</h5> </p>
+       <p><span id="conditions"></span></p> 
+ </div>
+ <div>
+    <p class="label2"><h5>Feels-Like</h5></p>
+   <p><span id="Feels-Like"></span></p> 
+ </div>
+  <div>
+    <p class="label3"><h5>Humidity</h5></p>
+    <p><span id="humidity"></span></p>
+ </div>
+   <div>
+    <p class="label4" ><h5>wind</h5></p>
+     <p><span id="wind"></span></p>
+ </div>
+ </div>
+ </div>
+   </div>
+  
+    <script src="index.js"></script>
+</body>
+</html>
